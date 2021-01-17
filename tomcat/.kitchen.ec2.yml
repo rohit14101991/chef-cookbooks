@@ -1,0 +1,21 @@
+---
+driver:
+  name: ec2
+  instance_type: #instace type
+  customize:
+    memory: 
+    cpus: 
+
+platforms:
+  - name: #available platform
+
+suites:
+  - name: 
+    includes: 
+    run_list:
+      - recipe[tomcat::default]
+    verifier:
+      inspec_tests:
+        - test/smoke/default
+    attributes:
+#run knife kitchen init to generate .kitchen.yml
