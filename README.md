@@ -12,7 +12,7 @@ Mode of testing  ( This cookbook was tested  on kitchen linux instance )
 2) Chef if all converge is successful and all execution was up to mark 
 3) Run kitchen login
 4) Now switch to desired user (mongod or if you wish to configure on roo then root )
-5) Run mongod 
+5) Run mongo
 6) If you can login to db and then create new databse with use DATABASE_NAME ( give db name )
 7) run " db" ( to list your selected db )
 8) if you can create db then you have successfully configured mongodb
